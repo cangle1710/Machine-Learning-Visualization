@@ -311,6 +311,7 @@ def userInput():
             demo.show() #show application
             dontExit = True
             app.exec()
+            demo.photoViewer.setPix(QPixmap())
             #demo.set_image(sys.argv)
             #del app
         elif userInput =="2":
